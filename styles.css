@@ -4,11 +4,10 @@
 
 body {
     background-color: whitesmoke;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     height:100vh;
-    margin: 0;
 }
 
 .buttonPress {
@@ -20,9 +19,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin: auto;
 }
 
 .buttonParagraph {
-    display: block;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
 }
