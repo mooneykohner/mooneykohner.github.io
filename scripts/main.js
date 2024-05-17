@@ -3,9 +3,9 @@ myHeading.textContent = "Hello world!"
 
 document.getElementById("test").innerHTML = "This is not a test."
 
-function onButtonClick() {
+function whenClicked() {
     alert("Surprise!")
 }
 
 const button = document.getElementById("button1")
-button.addEventListener("click", onButtonClick)
+button.addEventListener("click", whenClicked)
