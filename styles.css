@@ -2,12 +2,13 @@
     font-size: 50px;
 }
 
-.collapsible {
-
-}
-
-.docStart {
-    align-content: center;
+body {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin: 0;
 }
 
 .buttonPress {
@@ -16,4 +17,12 @@
     font-size: 20px;
     color: white;
     background-color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.buttonParagraph {
+    display: block;
 }
