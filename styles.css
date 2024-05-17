@@ -9,3 +9,11 @@
 .docStart {
     align-content: center;
 }
+
+.buttonPress {
+    width: 200px;
+    height: 100px;
+    font-size: 20px;
+    color: white;
+    background-color: darkblue;
+}
