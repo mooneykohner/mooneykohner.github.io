@@ -1,5 +1,5 @@
 function buttonClicked () {
-    const paraChange = document.getElementById("test")
+    const paraChange = document.getElementById("paraButton")
     const playAudio = document.getElementById("dingButton")
     if (paraChange.textContent === "Hello, Alana!") {
         paraChange.textContent = "I love you very much!"
