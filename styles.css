@@ -4,7 +4,6 @@
 
 body {
     background-color: whitesmoke;
-    display: block;
     justify-content: center;
     align-items: center;
     height:100vh;
@@ -24,6 +23,15 @@ body {
 
 .buttonParagraph {
     display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.quickLinks {
+    display: flex;
+    flex-direction: column;
     margin: auto;
     justify-content: center;
     align-items: center;
