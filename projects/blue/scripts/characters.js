@@ -3,7 +3,7 @@ function buttonChar1 () {
     const characterPara = document.getElementById ("characterPara")
 
     characterPara.textContent = "She's so cool!"
-    imageBlue.src = "projects/blue/images/QuestionMark2.png"
+    imageBlue.src = "QuestionMark2.png"
 }
 
 const buttonBlue = document.getElementById ("characterBlue")
