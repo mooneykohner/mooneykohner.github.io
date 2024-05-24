@@ -13,7 +13,7 @@ body {
 }
 
 .characterBox {
-    width: 50%;
+    width: 25%;
     height: 50%;
     display: flex;
     margin: auto;
