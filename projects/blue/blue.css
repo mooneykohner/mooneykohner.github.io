@@ -10,7 +10,4 @@
 
 .characterBox {
     transform: scale(0.2);
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 }
