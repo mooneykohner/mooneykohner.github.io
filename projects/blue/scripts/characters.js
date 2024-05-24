@@ -11,6 +11,7 @@ function buttonChar2() {
     const characterPara = document.getElementById("characterPara")
 
     characterImage.src = "../blue/images/QuestionMark.png";
+    characterImage.alt = "The sweetest superhero!"
     characterPara.textContent = "She's a super detective!";
 }
 
