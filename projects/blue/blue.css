@@ -6,5 +6,6 @@ body {
 
 .bottomLinks {
     display: flex;
-    align-content: flex-end;
+    position: fixed;
+    bottom: 0;
 }
