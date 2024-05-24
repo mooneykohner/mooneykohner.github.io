@@ -1,9 +1,9 @@
 function buttonChar1 () {
-    const imageBlue = document.getElementById ("characterBox")
+    const imageBlue = document.getElementById ("characterImage")
     const characterPara = document.getElementById ("characterPara")
 
     characterPara.textContent = "She's so cool!";
-    imageBlue.src = "..images/QuestionMark2.png";
+    imageBlue.src = "../images/QuestionMark2.png";
 }
 
 const buttonBlue = document.getElementById ("characterBlue")
