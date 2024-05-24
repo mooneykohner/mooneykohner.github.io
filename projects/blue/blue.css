@@ -16,5 +16,5 @@ body {
     transform: scale(50%);
     display: flex;
     margin: auto;
-    justify-content: left;
+    justify-content: flex-start;
 }
