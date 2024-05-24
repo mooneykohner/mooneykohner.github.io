@@ -26,5 +26,9 @@ body {
 }
 
 .characterBox button {
+    margin: 0 10px;
+}
+
+.characterButton {
     flex-direction: row;
 }
