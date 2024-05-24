@@ -4,6 +4,7 @@ function buttonChar1 () {
 
     characterImage.src = "../blue/images/QuestionMark.png";
     characterPara.textContent = "She's so cool!";
+    characterImage.title = "The sweetest superhero!"
 }
 
 function buttonChar2() {
@@ -11,7 +12,6 @@ function buttonChar2() {
     const characterPara = document.getElementById("characterPara")
 
     characterImage.src = "../blue/images/QuestionMark.png";
-    characterImage.title = "The sweetest superhero!"
     characterPara.textContent = "She's a super detective!";
 }
 
