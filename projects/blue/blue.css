@@ -14,10 +14,11 @@ body {
 
 .characterBox {
     transform: scale(20%);
-}
-
-.characterDiv {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.characterDiv {
+
 }
