@@ -3,3 +3,8 @@ body {
     height: 100vh;
     margin: 0;
 }
+
+.bottomLinks {
+    display: flex;
+    align-content: end;
+}
