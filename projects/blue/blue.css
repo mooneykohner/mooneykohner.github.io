@@ -28,8 +28,10 @@ body {
 .characterBox button {
     margin: 0 5px;
     accent-color: #c1dfff;
+
 }
 
 .characterButton {
     flex-direction: row;
+
 }
