@@ -2,7 +2,7 @@ function buttonChar1 () {
     const characterImage = document.getElementById ("characterImage")
     const characterPara = document.getElementById ("characterPara")
 
-    characterImage.src = "../blue/images/QuestionMark2.png";
+    characterImage.src = "../blue/images/QuestionMark.png";
     characterPara.textContent = "She's so cool!";
 }
 
