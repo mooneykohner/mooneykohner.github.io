@@ -13,8 +13,5 @@ body {
 }
 
 .characterBox {
-    transform: scale(50%);
-    display: flex;
-    margin: auto;
-    justify-content: flex-start;
+    transform: scale(20%);
 }
