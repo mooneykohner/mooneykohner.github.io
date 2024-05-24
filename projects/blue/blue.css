@@ -21,6 +21,10 @@ body {
 }
 
 .characterBox img {
-    width: 200px;
+    width: 500px;
     height: auto;
+}
+
+.characterBox button {
+    flex-direction: row;
 }
