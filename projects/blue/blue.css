@@ -11,3 +11,10 @@ body {
     bottom: 0;
     width: 100%;
 }
+
+.characterBox {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
