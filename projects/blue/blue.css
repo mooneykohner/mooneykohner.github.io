@@ -1,4 +1,8 @@
-
+body {
+    background: linear-gradient(to bottom, white, #c1dfff);
+    height: 100vh;
+    margin: 0;
+}
 
 .bottomLinks {
     position: fixed;
@@ -10,4 +14,5 @@
 
 .characterBox {
     transform: scale(0.2);
+    display: block;
 }
