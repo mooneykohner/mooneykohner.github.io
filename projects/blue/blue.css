@@ -13,8 +13,13 @@ body {
 }
 
 .characterBox {
-    transform: scale(0.2);
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
+}
+
+.characterBox img {
+    width: 50px;
+    height: auto;
 }
