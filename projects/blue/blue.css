@@ -17,4 +17,6 @@ body {
     margin: auto;
     justify-content: center;
     align-items: flex-start;
+    width: 50%;
+    height: 50%;
 }
