@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom, #c1dfff, white);
+    background: linear-gradient(to bottom, white, #c1dfff);
     height: 100vh;
     margin: 0;
     display: flex;
