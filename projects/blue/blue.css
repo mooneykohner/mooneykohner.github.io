@@ -33,5 +33,5 @@ body {
 
 .characterButton {
     flex-direction: row;
-    border-radius: 50%;
+    border-radius: 50px;
 }
