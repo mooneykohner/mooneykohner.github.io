@@ -9,7 +9,7 @@ if (characterPara && characterImage) {
     }
 
     // Select all buttons within the button container
-    const buttonContainer = document.getElementById("characterButton");
+    const buttonContainer = document.getElementById("buttonContainer");
     if (buttonContainer) {
         const characterButtons = buttonContainer.querySelectorAll("button");
 

@@ -7,7 +7,7 @@ if (characterPara && characterImage) {
         characterPara.textContent = textContent;
     }
     // Select all buttons within the button container
-    var buttonContainer = document.getElementById("characterButton");
+    var buttonContainer = document.getElementById("buttonContainer");
     if (buttonContainer) {
         var characterButtons = buttonContainer.querySelectorAll("button");
         characterButtons.forEach(function (button) {
