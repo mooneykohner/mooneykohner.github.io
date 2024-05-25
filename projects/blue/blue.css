@@ -50,4 +50,5 @@ body {
 .landingPage p {
     display: block;
     text-align: left;
+    align-self: stretch;
 }
