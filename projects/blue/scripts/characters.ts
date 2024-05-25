@@ -1,26 +1,29 @@
-const characterImage = document.getElementById("characterImage") as HTMLImageElement;
-const characterPara = document.getElementById ("characterPara") as HTMLParagraphElement;
-
 function buttonChar1 () {
     characterImage.src = "../images/QuestionMark.png";
+    characterImage.title = "She's so cool!";
     characterPara.textContent = "She's so cool!";
-    characterImage.title = "The sweetest superhero!"
 }
 
 function buttonChar2() {
     characterImage.src = "../images/QuestionMark.png";
+    characterImage.title = "She's a super detective!";
     characterPara.textContent = "She's a super detective!";
 }
 
 function buttonChar3() {
     characterImage.src = "../images/QuestionMark.png";
+    characterImage.title = "He's an elite hacker!";
     characterPara.textContent = "He's an elite hacker!";
 }
 
 function buttonChar4() {
     characterImage.src = "../images/QuestionMark.png";
+    characterImage.title = "She's a mad chemist!"
     characterPara.textContent = "She's a mad chemist!"
 }
+
+const characterPara = document.getElementById ("characterPara") as HTMLParagraphElement;
+const characterImage = document.getElementById("characterImage") as HTMLImageElement;
 
 
 const buttonBlue = document.getElementById ("characterBlue")
