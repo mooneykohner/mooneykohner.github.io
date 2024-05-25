@@ -46,3 +46,7 @@ body {
     position: relative;
     text-align: center;
 }
+
+.landingPage p {
+    text-align: left;
+}
