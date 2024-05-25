@@ -49,4 +49,4 @@ characterButtons.forEach(button => {
                 console.error("Unknown button ID: " + button.id);
         }
     });
-});1
+});

@@ -28,4 +28,3 @@ characterButtons.forEach(function (button) {
         }
     });
 });
-1;
