@@ -1,52 +1,39 @@
-const characterPara = document.getElementById("characterPara") as HTMLParagraphElement | null;
-const characterImage = document.getElementById("characterImage") as HTMLImageElement | null;
-
-function updateCharacterInfo(imageSrc: string, title: string, textContent: string) {
-    if (characterImage && characterPara) { // Ensure elements exist before using them
-        characterImage.src = imageSrc;
-        characterImage.title = title;
-        characterPara.textContent = textContent;
-    }
+function buttonChar1 () {
+    characterImage.src = "../images/QuestionMark.png";
+    characterImage.title = "She's so cool!";
+    characterPara.textContent = "She's so cool!";
 }
 
-const characterButtons: NodeListOf<HTMLButtonElement> = document.querySelectorAll(".characterButton");
-characterButtons.forEach(button => {
-    button.addEventListener("click", function() {
-        switch (button.id) {
-            case "characterBlue":
-                updateCharacterInfo(
-                    "../images/QuestionMark.png",
-                    "She's so cool!",
-                    "She's so cool!"
-                );
-                break;
+function buttonChar2() {
+    characterImage.src = "../images/QuestionMark.png";
+    characterImage.title = "She's a super detective!";
+    characterPara.textContent = "She's a super detective!";
+}
 
-            case "characterJuniper":
-                updateCharacterInfo(
-                    "../images/QuestionMark.png",
-                    "She's a super detective!",
-                    "She's a super detective!"
-                );
-                break;
+function buttonChar3() {
+    characterImage.src = "../images/QuestionMark.png";
+    characterImage.title = "He's an elite hacker!";
+    characterPara.textContent = "He's an elite hacker!";
+}
 
-            case "characterVincent":
-                updateCharacterInfo(
-                    "../images/QuestionMark.png",
-                    "He's an elite hacker!",
-                    "He's an elite hacker!"
-                );
-                break;
+function buttonChar4() {
+    characterImage.src = "../images/QuestionMark.png";
+    characterImage.title = "She's a mad chemist!"
+    characterPara.textContent = "She's a mad chemist!"
+}
 
-            case "characterOlive":
-                updateCharacterInfo(
-                    "../images/QuestionMark.png",
-                    "She's a mad chemist!",
-                    "She's a mad chemist!"
-                );
-                break;
+const characterPara = document.getElementById ("characterPara") as HTMLParagraphElement;
+const characterImage = document.getElementById("characterImage") as HTMLImageElement;
 
-            default:
-                console.error("Unknown button ID: " + button.id);
-        }
-    });
-});
+
+const buttonBlue = document.getElementById ("characterBlue")
+buttonBlue.addEventListener("click", buttonChar1)
+
+const buttonJuniper = document.getElementById ("characterJuniper")
+buttonJuniper.addEventListener("click", buttonChar2)
+
+const buttonVincent = document.getElementById ("characterVincent")
+buttonVincent.addEventListener("click", buttonChar3)
+
+const buttonOlive = document.getElementById ("characterOlive")
+buttonOlive.addEventListener ("click", buttonChar4)
