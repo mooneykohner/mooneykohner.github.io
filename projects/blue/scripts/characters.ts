@@ -44,6 +44,9 @@ characterButtons.forEach(button => {
                     "She's a mad chemist!"
                 );
                 break;
+
+            default:
+                console.error("Unknown button ID: " + button.id);
         }
     });
 });

@@ -23,6 +23,8 @@ characterButtons.forEach(function (button) {
             case "characterOlive":
                 updateCharacterInfo("../images/QuestionMark.png", "She's a mad chemist!", "She's a mad chemist!");
                 break;
+            default:
+                console.error("Unknown button ID: " + button.id);
         }
     });
 });
