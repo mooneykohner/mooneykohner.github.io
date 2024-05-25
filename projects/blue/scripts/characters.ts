@@ -1,36 +1,43 @@
-const characterImage = document.getElementById("characterImage") as HTMLImageElement;
-const characterPara = document.getElementById ("characterPara") as HTMLParagraphElement;
+document.addEventListener('DOMContentLoaded', () => {
+    const characterImage = document.getElementById("characterImage") as HTMLImageElement;
+    const characterPara = document.getElementById("characterPara") as HTMLParagraphElement;
 
-function buttonChar1 () {
-    characterImage.src = "../blue/images/QuestionMark.png";
-    characterPara.textContent = "She's so cool!";
-    characterImage.title = "The sweetest superhero!"
-}
+    function buttonChar1(): void {
+        characterImage.src = "../blue/images/QuestionMark.png";
+        characterPara.textContent = "She's so cool!";
+        characterImage.title = "The sweetest superhero!";
+    }
 
-function buttonChar2() {
-    characterImage.src = "../blue/images/QuestionMark.png";
-    characterPara.textContent = "She's a super detective!";
-}
+    function buttonChar2(): void {
+        characterImage.src = "../blue/images/QuestionMark.png";
+        characterPara.textContent = "She's a super detective!";
+    }
 
-function buttonChar3() {
-    characterImage.src = "../blue/images/QuestionMark.png";
-    characterPara.textContent = "He's an elite hacker!";
-}
+    function buttonChar3(): void {
+        characterImage.src = "../blue/images/QuestionMark.png";
+        characterPara.textContent = "He's an elite hacker!";
+    }
 
-function buttonChar4() {
-    characterImage.src = "../blue/images/QuestionMark.png";
-    characterPara.textContent = "She's a mad chemist!"
-}
+    function buttonChar4(): void {
+        characterImage.src = "../blue/images/QuestionMark.png";
+        characterPara.textContent = "She's a mad chemist!";
+    }
 
+    const buttonBlue = document.getElementById("characterBlue");
+    const buttonJuniper = document.getElementById("characterJuniper");
+    const buttonVincent = document.getElementById("characterVincent");
+    const buttonOlive = document.getElementById("characterOlive");
 
-const buttonBlue = document.getElementById ("characterBlue")
-buttonBlue.addEventListener("click", buttonChar1)
-
-const buttonJuniper = document.getElementById ("characterJuniper")
-buttonJuniper.addEventListener("click", buttonChar2)
-
-const buttonVincent = document.getElementById ("characterVincent")
-buttonVincent.addEventListener("click", buttonChar3)
-
-const buttonOlive = document.getElementById ("characterOlive")
-buttonOlive.addEventListener ("click", buttonChar4)
+    if (buttonBlue) {
+        buttonBlue.addEventListener("click", buttonChar1);
+    }
+    if (buttonJuniper) {
+        buttonJuniper.addEventListener("click", buttonChar2);
+    }
+    if (buttonVincent) {
+        buttonVincent.addEventListener("click", buttonChar3);
+    }
+    if (buttonOlive) {
+        buttonOlive.addEventListener("click", buttonChar4);
+    }
+});
