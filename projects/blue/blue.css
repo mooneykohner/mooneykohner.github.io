@@ -28,7 +28,9 @@ body {
 .characterBox button {
     margin: 0 5px;
     accent-color: #c1dfff;
-
+    font-family: "Sofia", cursive;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .characterButton {
