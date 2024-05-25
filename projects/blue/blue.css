@@ -51,4 +51,5 @@ body {
     display: block;
     text-align: left;
     align-self: stretch;
+    padding-left: 100px;
 }
