@@ -34,7 +34,7 @@ if (characterPara && characterImage) {
             });
         });
     } else {
-        console.error('characterButton element not found.');
+        console.error('buttonContainer element not found.');
     }
 } else {
     if (!characterPara) console.error('characterPara element not found.');
