@@ -7,7 +7,7 @@ if (characterPara && characterImage) {
         characterPara.textContent = textContent;
     }
     // Select all buttons within the button container
-    var buttonContainer = document.getElementById("buttonContainer");
+    var buttonContainer = document.getElementById("characterButton");
     if (buttonContainer) {
         var characterButtons = buttonContainer.querySelectorAll("button");
         characterButtons.forEach(function (button) {
@@ -32,7 +32,7 @@ if (characterPara && characterImage) {
         });
     }
     else {
-        console.error('buttonContainer element not found.');
+        console.error('characterButton element not found.');
     }
 }
 else {

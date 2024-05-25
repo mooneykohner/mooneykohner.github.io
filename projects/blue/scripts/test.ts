@@ -9,7 +9,7 @@ if (characterPara && characterImage) {
     }
 
     // Select all buttons within the button container
-    const buttonContainer = document.getElementById("buttonContainer");
+    const buttonContainer = document.getElementById("characterButton");
     if (buttonContainer) {
         const characterButtons = buttonContainer.querySelectorAll("button");
 
@@ -34,7 +34,7 @@ if (characterPara && characterImage) {
             });
         });
     } else {
-        console.error('buttonContainer element not found.');
+        console.error('characterButton element not found.');
     }
 } else {
     if (!characterPara) console.error('characterPara element not found.');
