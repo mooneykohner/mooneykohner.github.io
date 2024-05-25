@@ -48,6 +48,6 @@ body {
 }
 
 .landingPage p {
-    justify-content: flex-start;
+    display: block;
     text-align: left;
 }
