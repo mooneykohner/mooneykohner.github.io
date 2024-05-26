@@ -8,7 +8,7 @@ body {
     position: fixed;
     text-align: center;
     padding: 10px;
-    bottom: 0;
+    top: 0;
     width: 100%;
 }
 
