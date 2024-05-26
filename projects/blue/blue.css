@@ -9,8 +9,8 @@ body {
 .topLinks {
     position: fixed;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 500px;
+    padding: 10px;
+    z-index: 1000;
     top: 0;
     width: 100%;
 }
