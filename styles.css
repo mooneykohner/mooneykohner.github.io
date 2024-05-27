@@ -37,8 +37,12 @@ body {
     align-items: center;
     z-index: 1000;
     position: relative;
-    padding: 20px;
     top: 0;
+}
+
+.topLinks a {
+    padding: 20px;
+    text-decoration: mediumpurple;
 }
 
 .indexText {
