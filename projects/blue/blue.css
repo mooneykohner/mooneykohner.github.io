@@ -51,6 +51,7 @@ body {
     align-items: center;
     position: relative;
     text-align: center;
+    padding: 50px;
 }
 
 .landingPage h2 {
