@@ -3,7 +3,7 @@
 }
 
 body {
-    background: linear-gradient(white, purple);
+    background: linear-gradient(white 80%, purple 20%);
     justify-content: center;
     align-items: center;
     height:100vh;
@@ -37,5 +37,13 @@ body {
     align-items: center;
     z-index: 1000;
     position: relative;
+    padding: 20px;
     top: 0;
+}
+
+.indexText {
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    text-align: center;
 }
