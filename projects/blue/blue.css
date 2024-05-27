@@ -53,6 +53,10 @@ body {
     text-align: center;
 }
 
+.landingPage h2 {
+    color: #c1dfff;
+}
+
 .landingPage p {
     display: block;
     text-align: left;
