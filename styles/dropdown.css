@@ -1,11 +1,9 @@
-body {
-    background: linear-gradient(white 95%, purple 5%);
-    height: 100vh;
-}
-
 .dropdown-container {
     position: relative;
-    display: inline-block;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    text-align: center;
 }
 
 .dropdown-button {
@@ -36,10 +34,10 @@ body {
     background-color: black
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown-container:hover .dropdown-content {
     display: block;
 }
 
-.dropdown:hover .dropdown-button{
+.dropdown-container:hover .dropdown-button{
     background-color: red;
 }
