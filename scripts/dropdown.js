@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const dropdownButton: HTMLElement | null = document.getElementById('dropdown-button');
-    const dropdownContent: HTMLElement | null = document.getElementById('dropdown-content');
+    const dropdownButton = document.getElementById('dropdown-button');
+    const dropdownContent = document.getElementById('dropdown-content');
 
     if (dropdownButton && dropdownContent) {
-        dropdownButton.addEventListener('click', (event: MouseEvent) => {
+        dropdownButton.addEventListener('click', (event) => {
             event.stopPropagation();
             event.preventDefault();
             console.log('Dropdown button clicked');
@@ -14,9 +14,9 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        document.addEventListener('click', (event: MouseEvent) => {
+        document.addEventListener('click', (event) => {
             console.log('Document clicked');
-            if (!dropdownContent.contains(event.target as Node) && !dropdownButton.contains(event.target as Node)) {
+            if (!dropdownContent.contains(event.target) && !dropdownButton.contains(event.target)) {
                 dropdownContent.style.display = 'none';
             }
         });
