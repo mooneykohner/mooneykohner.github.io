@@ -11,3 +11,4 @@ window.addEventListener("click", function (event) {
         }
     }
 });
+// 1
