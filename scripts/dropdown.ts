@@ -1,15 +1,21 @@
-const dropdownButton = document.getElementById("dropdown-button");
-const dropdownContent = document.getElementById("dropdown-content");
+document.addEventListener('DOMContentLoaded', () => {
+    const dropdownButton: HTMLElement | null = document.getElementById('dropdown-button');
+    const dropdownContent: HTMLElement | null = document.getElementById('dropdown-content');
 
-dropdownButton.addEventListener("click", () => {
-    dropdownContent.style.display = dropdownContent.style.display === "block" ? "none" : "block";
-});
+    if (dropdownButton && dropdownContent) {
+        dropdownButton.addEventListener('click', (event: MouseEvent) => {
+            event.stopPropagation();
+            if (dropdownContent.style.display === 'block') {
+                dropdownContent.style.display = 'none';
+            } else {
+                dropdownContent.style.display = 'block';
+            }
+        });
 
-window.addEventListener("click", (event) => {
-    const target = event.target as Element;
-    if (!target.matches("#dropdown-button")) {
-        if (dropdownContent.style.display === "block") {
-            dropdownContent.style.display = "none";
-        }
+        document.addEventListener('click', (event: MouseEvent) => {
+            if (!dropdownContent.contains(event.target as Node) && !dropdownButton.contains(event.target as Node)) {
+                dropdownContent.style.display = 'none';
+            }
+        });
     }
-})
+});
