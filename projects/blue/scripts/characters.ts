@@ -2,6 +2,7 @@ const characterPara = document.getElementById ("characterPara") as HTMLParagraph
 const characterImage =  document.getElementById ("characterImage") as HTMLImageElement;
 
 function characterInfo(imageSrc: string, title: string, textContent: string) {
+    console.log("Updating information with..", {imageSrc, title, textContent});
     characterImage.src = imageSrc;
     characterImage.title = title;
     characterPara.textContent = textContent;
@@ -10,6 +11,9 @@ function characterInfo(imageSrc: string, title: string, textContent: string) {
 const buttonContainer = document.getElementById("buttonContainer");
 if (buttonContainer) {
     const characterButtons = buttonContainer.querySelectorAll("button");
+    console.log("These buttons were found:", buttonContainer);
+    console.log("These characters were found:", characterButtons);
+
 
     characterButtons.forEach(button => {
         button.addEventListener("click", function () {

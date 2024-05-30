@@ -1,6 +1,7 @@
 var characterPara = document.getElementById("characterPara");
 var characterImage = document.getElementById("characterImage");
 function characterInfo(imageSrc, title, textContent) {
+    console.log("Updating information with..", { imageSrc: imageSrc, title: title, textContent: textContent });
     characterImage.src = imageSrc;
     characterImage.title = title;
     characterPara.textContent = textContent;
@@ -8,6 +9,8 @@ function characterInfo(imageSrc, title, textContent) {
 var buttonContainer = document.getElementById("buttonContainer");
 if (buttonContainer) {
     var characterButtons = buttonContainer.querySelectorAll("button");
+    console.log("These buttons were found:", buttonContainer);
+    console.log("These characters were found:", characterButtons);
     characterButtons.forEach(function (button) {
         button.addEventListener("click", function () {
             switch (button.id) {
