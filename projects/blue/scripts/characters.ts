@@ -1,3 +1,5 @@
+// Handles character information switching.
+
 const characterPara = document.getElementById(
   "characterPara",
 ) as HTMLParagraphElement;

@@ -1,3 +1,4 @@
+// Handles character information switching.
 var characterPara = document.getElementById("characterPara");
 var characterImage = document.getElementById("characterImage");
 function characterInfo(imageSrc, title, textContent) {
