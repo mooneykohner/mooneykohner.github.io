@@ -13,5 +13,3 @@ window.addEventListener("click", (event) => {
         }
     }
 })
-
-// 1
