@@ -14,6 +14,15 @@ if (buttonContainer) {
                 case "characterBlue":
                     characterInfo("../images/QuestionMark.png", "She's so cool!", "She's so cool!");
                     break;
+                case "characterJuniper":
+                    characterInfo("../images/QuestionMark.png", "She's a super detective!", "She's a super detective!");
+                    break;
+                case "characterVincent":
+                    characterInfo("../images/QuestionMark.png", "He's an elite hacker!", "He's an elite hacker!");
+                    break;
+                case "characterOlive":
+                    characterInfo("../images/QuestionMark.png", "She's a mad chemist!", "She's a mad chemist!");
+                    break;
             }
         });
     });
