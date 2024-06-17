@@ -1,9 +1,6 @@
 body {
     background: linear-gradient(#f5f2f0 95%, purple 5%);
     height: 98vh;
-}
-
-h1 {
     display: flex;
     align-items: center;
     justify-content: center;
