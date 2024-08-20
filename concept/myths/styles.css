@@ -7,3 +7,8 @@
     position: relative;
     width: 100%;
 }
+
+body {
+    background: linear-gradient(white 95%, purple 5%);
+    height: 100vh;
+}
