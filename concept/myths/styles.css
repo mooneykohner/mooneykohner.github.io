@@ -27,6 +27,11 @@ h2 {
 .contactInfo {
     text-align: center;
     bottom: 10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .contactText {
