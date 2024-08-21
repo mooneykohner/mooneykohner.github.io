@@ -24,11 +24,11 @@ h2 {
     text-align: center;
 }
 
-.contactInfo {
+.contactHeader {
     text-align: center;
 }
 
-.contactInfo p {
+.contactText {
     display: flex;
     justify-content: center;
     gap: 20px
