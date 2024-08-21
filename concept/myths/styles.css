@@ -19,3 +19,7 @@ h2 {
     padding-bottom: 1px;
     margin: 0 auto;
 }
+
+.textContainer {
+    text-align: center;
+}
