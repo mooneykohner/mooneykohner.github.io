@@ -17,5 +17,5 @@ h2 {
     display: inline-block;
     border-bottom: 2px solid black;
     padding-bottom: 1px;
-    margin: 0;
+    margin: 0 auto;
 }
