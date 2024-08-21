@@ -23,3 +23,8 @@ h2 {
 .textContainer {
     text-align: center;
 }
+
+.contactInfo {
+    text-align: center;
+    bottom: 10px;
+}
