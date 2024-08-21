@@ -15,8 +15,7 @@ body {
 
 h2 {
     display: inline-block;
-    border-bottom: 5px solid black;
-    padding-bottom: 2px;
-    justify-content: center;
-    align-items: center;
+    border-bottom: 2px solid black;
+    padding-bottom: 1px;
+    text-align: center;
 }
