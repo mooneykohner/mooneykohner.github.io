@@ -44,5 +44,5 @@ h2 {
 .contactText {
     display: flex;
     justify-content: center;
-    gap: 20px
+    gap: 5px;
 }
