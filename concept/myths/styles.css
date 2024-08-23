@@ -39,6 +39,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   padding-top: 10px;
+  min-height: 100vh;
 }
 
 .contactText {
@@ -53,7 +54,7 @@ body {
     font-size: 2rem;
   }
 
-  h1.topLinks {
+  h1 {
     font-size: 2rem;
   }
 
