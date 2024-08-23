@@ -62,9 +62,12 @@ body {
     font-size: 1.5rem;
   }
 
+  .contactInfo {
+    padding-top: 400px;
+  }
   .textContainer,
   .contactInfo {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
