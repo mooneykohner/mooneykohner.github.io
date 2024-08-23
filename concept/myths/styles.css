@@ -39,7 +39,7 @@ body {
   margin-left: 0;
   margin-right: 0;
   padding-top: 10px;
-  min-height: 100vh;
+  max-height: 100vh;
 }
 
 .contactText {
