@@ -1,6 +1,8 @@
 body {
   font-size: 1rem;
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-image: url("images/replace.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,9 +19,8 @@ body {
 
 .textContainer h1 {
   display: inline-block;
-  border-bottom: 2px solid black;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   margin: 0 auto;
 }
 
@@ -40,6 +41,7 @@ body {
   margin: 0;
   padding-top: 10px;
   max-height: 100vh;
+  flex: 1;
 }
 
 /* MOBILE */
@@ -49,11 +51,15 @@ body {
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   h2 {
-    font-size: 1.25rem;
+    font-size: 1.75rem;
+  }
+
+  p {
+    font-size: 1.5rem;
   }
 
   .textContainer,
