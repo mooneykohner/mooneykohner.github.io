@@ -19,6 +19,10 @@ body {
     padding: 0;
 }
 
+@media body {
+
+}
+
 h2 {
     display: inline-block;
     border-bottom: 2px solid black;
@@ -35,7 +39,7 @@ h2 {
 .contactInfo {
     text-align: center;
     bottom: 10px;
-    position: absolute;
+    position: fixed;
     left: 0;
     right: 0;
     margin-left: 0;
