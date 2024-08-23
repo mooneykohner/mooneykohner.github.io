@@ -32,34 +32,28 @@ body {
 
 .contactInfo {
   text-align: center;
-  bottom: 10px;
-  position: absolute;
+  position: fixed; /* Changed to fixed for footer */
+  bottom: 0; /* Stick to the bottom of the viewport */
   left: 0;
   right: 0;
-  margin-left: 0;
-  margin-right: 0;
-  padding-top: 10px;
-  max-height: 100vh;
-}
-
-.contactText {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
+  margin: 0; /* Remove default margin */
+  padding: 10px; /* Add padding */
+  background-color: #fff; /* Optional: Background color for readability */
+  z-index: 1000; /* Ensure it stays on top */
 }
 
 /* MOBILE */
 @media (max-width: 600px) {
   body {
-    font-size: 2rem;
+    font-size: 1rem; /* Adjusted to be more reasonable for mobile */
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem; /* Resize h1 for mobile */
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.25rem; /* Resize h2 for mobile */
   }
 
   .textContainer,
