@@ -9,18 +9,17 @@ body {
   padding: 0;
 }
 
-.title {
-  display: inline-block;
-  border-bottom: 2px solid black;
-  padding-bottom: 1px;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .textContainer {
   text-align: center;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.textContainer h1 {
+  display: inline-block;
+  border-bottom: 2px solid black;
+  padding-bottom: 1px;
+  margin: 0 auto;
 }
 
 .textContainer h2 {
