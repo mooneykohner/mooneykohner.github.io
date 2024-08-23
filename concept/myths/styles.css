@@ -34,8 +34,8 @@ body {
 
 .contactInfo {
   text-align: center;
-  bottom: 10px;
-  position: absolute;
+  bottom: 0;
+  position: relative;
   left: 0;
   right: 0;
   margin: 0;
@@ -62,9 +62,6 @@ body {
     font-size: 1.5rem;
   }
 
-  .contactInfo {
-    padding-top: 400px;
-  }
   .textContainer,
   .contactInfo {
     padding-left: 15px;
