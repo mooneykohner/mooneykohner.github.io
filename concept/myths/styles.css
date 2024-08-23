@@ -18,7 +18,8 @@ body {
 .textContainer h1 {
   display: inline-block;
   border-bottom: 2px solid black;
-  padding-bottom: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin: 0 auto;
 }
 
@@ -32,28 +33,27 @@ body {
 
 .contactInfo {
   text-align: center;
-  position: fixed; /* Changed to fixed for footer */
-  bottom: 0; /* Stick to the bottom of the viewport */
+  bottom: 10px;
+  position: relative;
   left: 0;
   right: 0;
-  margin: 0; /* Remove default margin */
-  padding: 10px; /* Add padding */
-  background-color: #fff; /* Optional: Background color for readability */
-  z-index: 1000; /* Ensure it stays on top */
+  margin: 0;
+  padding-top: 10px;
+  max-height: 100vh;
 }
 
 /* MOBILE */
 @media (max-width: 600px) {
   body {
-    font-size: 1rem; /* Adjusted to be more reasonable for mobile */
+    font-size: 1rem;
   }
 
   h1 {
-    font-size: 1.5rem; /* Resize h1 for mobile */
+    font-size: 1.5rem;
   }
 
   h2 {
-    font-size: 1.25rem; /* Resize h2 for mobile */
+    font-size: 1.25rem;
   }
 
   .textContainer,
